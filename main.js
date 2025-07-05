@@ -49,6 +49,7 @@ class TodoApp {
     })
   }
 
+  //Input
   addTodo() {
     const input = document.getElementById('todo-input')
     const text = input.value.trim()
